@@ -22,15 +22,14 @@
 		<div id="code">
 			<span class="comments">##</span><br/>
 			<span class="comments"># I am a programmer,</span><br/>
-			<span class="comments"># so I write code to celebrate Valentine's Day in coder's way.</span><br/>
+			<span class="comments"># so I write code to celebrate Meeting's Day in coder's way.</span><br/>
 			<span class="comments">##</span><br/>
-			i = Boy(<span class="string">"Qingcai Cui"</span>);<br/>
-			u = Girl(<span class="string">"Qian Ma"</span>);<br/>
-			<span class="comments"># Oct 14, 2018, I meet you because of PyCon 2018. </span><br/>
+			val i = Boy(<span class="string">"PQ Shen"</span>);<br/>
+			val u = Girl(<span class="string">"Jing Shi"</span>);<br/>
+			<span class="comments"># May 4, 2012, I met you. </span><br/>
 			i.meet(u)<br/>
 			<span class="comments"># Afterwards, I confessed to you. </span><br/>
 			i.confess(u)<br/>
-			<span class="comments"># Nov 5, 2018, You became my girlfriend.</span><br/>
 			u.accepted(i)<br/>
 			<span class="comments"># Since then, we spent harmony happiness life every day.</span><br/>
 			happy(u, i)<br/>
@@ -53,8 +52,8 @@
 			<span class="placeholder"></span><span class="placeholder"></span>u = everything<br/>
 			<span class="placeholder"></span><span class="keyword">else</span>:<br/>
 			<span class="placeholder"></span><span class="placeholder"></span>everything = u<br/>
-			<span class="comments"># Waiting me marries you, we will be the happiest couple in the world.</span><br/>
-			i.marry(u, in_the_future=<span class="keyword">True</span>)<br/>
+			<span class="comments"># May 8, 2016, I married you.</span><br/>
+			i.marry(u)<br/>
 			i.live_happily_forever_with(u)<br/>
 			<span class="comments"># I love you forever.</span><br/>
 		</div>
@@ -62,7 +61,7 @@
 			<canvas id="garden"></canvas>
 			<div id="words">
 				<div id="messages">
-					Qian, I have fallen in love with you for
+					Jing, I have fallen in love with you for
 					<div id="elapseClock"></div>
 				</div>
 				<div id="loveu">
@@ -72,18 +71,15 @@
 			</div>
 		</div>
 	</div>
-	<div id="copyright">
-		Copyright © 2020 <a href='http://cuiqingcai.com'>cuiqingcai.com</a> 2014-2020
-	</div>
 </div>
 <script type="text/javascript">
 	var offsetX = $("#loveHeart").width() / 2;
 	var offsetY = $("#loveHeart").height() / 2 - 55;
 	var together = new Date();
 	// 此处月份介于 0 ~ 11 之间。用本地时间表示，如 8 月要用 7 表示。
-	together.setFullYear(2018, 10, 5);
-	together.setHours(15);
-	together.setMinutes(0);
+	together.setFullYear(2012, 5, 4);
+	together.setHours(19);
+	together.setMinutes(30);
 	together.setSeconds(0);
 	together.setMilliseconds(0);
 
